@@ -11878,14 +11878,4 @@ body .h5 {
   color: #3a2620;
 }
 
-.container,
-.row {
-  border: 2px solid black;
-}
-
-.col-12 {
-  border: 2px solid white;
-  background-color: lightgrey;
-}
-
 /*# sourceMappingURL=custom.css.map */
