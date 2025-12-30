@@ -11901,7 +11901,9 @@ body .h2 {
   font-family: "Macondo", cursive;
 }
 
-#services .card {
+#services .card,
+#newGames .card,
+#favGames .card {
   height: 100%;
 }
 
@@ -11909,4 +11911,9 @@ body .h2 {
   font-weight: bold;
   color: #416a8e;
   background-color: transparent;
+}
+
+#newGames .card,
+#favGames .card {
+  border: none;
 }

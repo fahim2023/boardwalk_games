@@ -58,11 +58,19 @@ body {
   font-family: $font-family-secondary;
 }
 //  services
-#services .card {
+#services .card,
+#newGames .card,
+#favGames .card {
   height: 100%;
 }
 #services .card-footer {
   font-weight: bold;
   color: $highlight;
   background-color: transparent;
+}
+// new games
+
+#newGames .card,
+#favGames .card {
+  border: none;
 }
