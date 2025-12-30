@@ -22,6 +22,12 @@ body {
   h3 {
     font-family: $font-family-secondary;
     color: $primary;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  h1,
+  h2 {
     text-transform: uppercase;
   }
 }
@@ -50,4 +56,13 @@ body {
 // header
 #header .lead {
   font-family: $font-family-secondary;
+}
+//  services
+#services .card {
+  height: 100%;
+}
+#services .card-footer {
+  font-weight: bold;
+  color: $highlight;
+  background-color: transparent;
 }

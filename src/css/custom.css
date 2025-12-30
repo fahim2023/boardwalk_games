@@ -11871,6 +11871,13 @@ body h3,
 body .h3 {
   font-family: "Macondo", cursive;
   color: #3a2620;
+}
+body h2, body .h2 {
+  margin-bottom: 2rem;
+}
+body h1, body .h1,
+body h2,
+body .h2 {
   text-transform: uppercase;
 }
 
@@ -11892,4 +11899,14 @@ body .h3 {
 
 #header .lead {
   font-family: "Macondo", cursive;
+}
+
+#services .card {
+  height: 100%;
+}
+
+#services .card-footer {
+  font-weight: bold;
+  color: #416a8e;
+  background-color: transparent;
 }
