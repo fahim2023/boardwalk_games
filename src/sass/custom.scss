@@ -49,6 +49,9 @@ body {
 .navbar {
   background-color: $primary;
 }
+.navbar .btn {
+  display: inline-block;
+}
 .navbar .logo {
   width: 30px;
 }
@@ -102,5 +105,11 @@ body {
   }
   .table-dark * {
     background-color: transparent;
+  }
+}
+.btn-primary {
+  background-color: $primary;
+  &:hover {
+    background-color: $secondary;
   }
 }

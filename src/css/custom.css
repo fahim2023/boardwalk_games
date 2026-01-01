@@ -11893,6 +11893,10 @@ body .h2 {
   background-color: #3a2620;
 }
 
+.navbar .btn {
+  display: inline-block;
+}
+
 .navbar .logo {
   width: 30px;
 }
@@ -11944,4 +11948,11 @@ body .h2 {
 }
 #contact .table-dark * {
   background-color: transparent;
+}
+
+.btn-primary {
+  background-color: #3a2620;
+}
+.btn-primary:hover {
+  background-color: #aa9581;
 }
