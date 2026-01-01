@@ -11917,3 +11917,28 @@ body .h2 {
 #favGames .card {
   border: none;
 }
+
+#contact {
+  background-color: #3a2620;
+  color: white;
+  padding-bottom: 3rem;
+}
+#contact h2, #contact .h2 {
+  color: white;
+}
+#contact .sub-heading-color {
+  color: #7a9fc2;
+}
+#contact i {
+  color: #aa9581;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+#contact .social-links i {
+  font-size: 1.6rem;
+  color: #7a9fc2;
+  transition: color 0.3 ease-in-out;
+}
+#contact .social-links i:hover {
+  color: #aa9581;
+}
