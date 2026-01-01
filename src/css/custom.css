@@ -11942,3 +11942,6 @@ body .h2 {
 #contact .social-links i:hover {
   color: #aa9581;
 }
+#contact .table-dark * {
+  background-color: transparent;
+}
