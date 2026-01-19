@@ -108,8 +108,17 @@ body {
   }
 }
 .btn-primary {
-  background-color: $primary;
+  background-color: #416a8e;
+  color: white;
   &:hover {
-    background-color: $secondary;
+    background-color: #7a9fc2;
+  }
+}
+#events .btn-outline-primary {
+  border: #416a8e 1px solid;
+  color: #416a8e;
+  &:hover {
+    background-color: #416a8e;
+    color: white;
   }
 }

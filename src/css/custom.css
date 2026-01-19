@@ -11951,8 +11951,18 @@ body .h2 {
 }
 
 .btn-primary {
-  background-color: #3a2620;
+  background-color: #416a8e;
+  color: white;
 }
 .btn-primary:hover {
-  background-color: #aa9581;
+  background-color: #7a9fc2;
+}
+
+#events .btn-outline-primary {
+  border: #416a8e 1px solid;
+  color: #416a8e;
+}
+#events .btn-outline-primary:hover {
+  background-color: #416a8e;
+  color: white;
 }
