@@ -17,6 +17,7 @@ $font-family-primary: "Inter", sans-serif;
 // 5. now add your custom styling here
 body {
   font-family: $font-family-primary;
+  padding-top: 55px; //add space so content is not overlapping nav due to fixed-top positioning
   h1,
   h2,
   h3 {
