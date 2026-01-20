@@ -11942,7 +11942,7 @@ body .h2 {
 #contact .social-links i {
   font-size: 1.6rem;
   color: #7a9fc2;
-  transition: color 0.3 ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 #contact .social-links i:hover {
   color: #aa9581;
